@@ -6,7 +6,7 @@ Google Material Design BackDrop widget for Android and IOS
 
 Add the backdrop dependency to your pubspec.yaml file.
 
-`backdrop: "^<version number>"`
+`backdrop_flutter: "^<version number>"`
 
 then run flutter packages get to install the dependency.
 
