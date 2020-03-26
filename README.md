@@ -97,3 +97,16 @@ import 'package:flutter/material.dart';
    }
  }
 ```
+
+## Theming
+
+```
+return MaterialApp(
+  ...
+  theme: ThemeData(
+    primarySwatch: Colors.pink, // primary color of the swatch used as back layer and app bar color
+    scaffoldBackgroundColor: Colors.white, // used as front layer background color
+  ),
+  ...
+);
+```
