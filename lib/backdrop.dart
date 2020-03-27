@@ -65,7 +65,7 @@ class _BackdropState extends State<Backdrop> with TickerProviderStateMixin {
               backgroundColor: Theme.of(context).primaryColor,
               title: Text(
                 widget.appBarTitle,
-                style: TextStyle(color: Colors.white),
+                style: TextStyle(color: Theme.of(context).primaryTextTheme.headline6.color),
               ),
               leading: IconButton(
                   icon: AnimatedIcon(
@@ -103,7 +103,7 @@ class _BackdropState extends State<Backdrop> with TickerProviderStateMixin {
                   AppBar().preferredSize.height,
               width: MediaQuery.of(context).size.width,
               decoration: BoxDecoration(
-                color: Colors.white,
+                color: Theme.of(context).scaffoldBackgroundColor,
                 borderRadius: BorderRadius.only(
                   topLeft: Radius.circular(16),
                   topRight: Radius.circular(16),

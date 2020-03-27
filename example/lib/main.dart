@@ -1,4 +1,3 @@
-import 'package:example_backdrop/src/Home.dart';
 import 'package:example_backdrop/src/MyHomePage.dart';
 import 'package:flutter/material.dart';
 
@@ -10,8 +9,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-        title: 'Flutter Demo',
-        theme: ThemeData(primaryColor: Colors.pink, accentColor: Colors.white),
-        home: MyHomePage());
+      title: 'Flutter Demo',
+      theme: ThemeData(
+        primarySwatch: Colors.pink,
+        scaffoldBackgroundColor: Colors.white,
+      ),
+      home: MyHomePage(),
+    );
   }
 }
